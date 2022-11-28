@@ -1,0 +1,78 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <body class="body">
+
+    <div class="container">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+            <div class="col-md-8">
+                <nav class="navbar navbar-expand-lg navbar-light bg-secundary">
+                    <a class="navbar-brand" href="#">Navbar
+                        <img class="navlogo d-inline-block align-top" src="img/Pizza-logo.png" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-6 col-md-4"></div>
+        </div>
+
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Vlees</h5>
+                        <img class="categoryImg" src="img/vleesCat.jpeg" alt="Vlees">
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Vis</h5>
+                        <img class="categoryImg" src="img/visCat.jpeg" alt="">
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Vega</h5>
+                        <img class="categoryImg" src="img/vegaCat.jpeg" alt="">
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card text-center">
+                    <div class="card-footer text-info d-inline-block align-bottom">
+                        Sopranos Pizza
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
