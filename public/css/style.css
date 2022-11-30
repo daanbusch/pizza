@@ -1,0 +1,21 @@
+.body {
+    background-image: linear-gradient( #DBF9FC, #33475b);
+    height: 100vh;
+    display: block;
+}
+
+.navlogo {
+   width: 30px;
+    height: 30px;
+}
+
+.categoryImg {
+    justify-content: center;
+    width: 100%;
+    height: 55%;
+}
+
+
+.cards {
+    display: inline-block;
+}
